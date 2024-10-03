@@ -35,12 +35,11 @@ size_t payload_source(void *ptr, size_t size, size_t nmemb, void *userp) {
 
     size_t len = strlen(*payload_text);
     memcpy(ptr, *payload_text, len);
-    *payload_text += len; // Move the pointer to the next part
+    *payload_text += len;
 
     return len;
 }
 
-// Function to send email alert using libcurl
 void send_email_alert(const std::string& src_ip, int syn_count, struct tcphdr *tcp_header) {
     CURL *curl;
     CURLcode res = CURLE_OK;
@@ -56,21 +55,16 @@ void send_email_alert(const std::string& src_ip, int syn_count, struct tcphdr *t
     curl = curl_easy_init();
     if(curl) {
         curl_easy_setopt(curl, CURLOPT_URL, "smtp://smtp.gmail.com:587");
-
         curl_easy_setopt(curl, CURLOPT_USE_SSL, CURLUSESSL_ALL);
-
         curl_easy_setopt(curl, CURLOPT_USERNAME, sender_email);
         curl_easy_setopt(curl, CURLOPT_PASSWORD, email_password);
-
-        // Set the sender email
         curl_easy_setopt(curl, CURLOPT_MAIL_FROM, sender_email);
 
-        // Set the recipient email
         struct curl_slist *recipients = nullptr;
         recipients = curl_slist_append(recipients, receiver_email);
+
         curl_easy_setopt(curl, CURLOPT_MAIL_RCPT, recipients);
 
-        // Email content
         std::string email_data =
             "To: " + std::string(receiver_email) + "\r\n"
             "From: " + std::string(sender_email) + "\r\n"
@@ -86,17 +80,12 @@ void send_email_alert(const std::string& src_ip, int syn_count, struct tcphdr *t
 
         const char *payload_text = email_data.c_str();
 
-        // Set up the read callback function to send the email body
         curl_easy_setopt(curl, CURLOPT_READFUNCTION, payload_source);
         curl_easy_setopt(curl, CURLOPT_READDATA, &payload_text);
-
-        // Enable upload mode to send the data
         curl_easy_setopt(curl, CURLOPT_UPLOAD, 1L);
 
-        // Send the email
         res = curl_easy_perform(curl);
 
-        // Cleanup
         if(res != CURLE_OK) {
             std::cerr << "curl_easy_perform() failed: " << curl_easy_strerror(res) << std::endl;
         }
@@ -142,8 +131,6 @@ void packet_handler(u_char *args, const struct pcap_pkthdr *header, const u_char
     std::time_t current_time = std::time(0);
 
     if (ip_header->ip_p == IPPROTO_TCP) {
-        // packets_file << "Timestamp: " << ctime(&header->ts.tv_sec);
-
         packets_file << "Timestamp: " << std::put_time(std::localtime(&header->ts.tv_sec), "%Y-%m-%d %H:%M:%S") << std::endl;
 
         handle_tcp_packet(ip_header, packet, src_ip, dst_ip, current_time);
@@ -161,14 +148,12 @@ int main() {
     char filter_exp[] = "ip";
     bpf_u_int32 net;
 
-    // Open the default device for live capture
     handle = pcap_open_live("wlp0s20f3", BUFSIZ, 1, 1000, errbuf);
     if (handle == nullptr) {
         std::cerr << "Couldn't open device: " << errbuf << std::endl;
         return 2;
     }
 
-    // Compile and apply a filter to only capture IP packets
     if (pcap_compile(handle, &fp, filter_exp, 0, net) == -1) {
         std::cerr << "Couldn't parse filter: " << pcap_geterr(handle) << std::endl;
         return 2;
@@ -188,7 +173,6 @@ int main() {
         std::cout << "File packets_file.txt opened successfully" << std::endl;
     }
 
-    // Start capturing packets and process them using the packet_handler callback
     pcap_loop(handle, PACKETS_TO_CAPTURE, packet_handler, nullptr);
 
     packets_file.close();
