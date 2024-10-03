@@ -1,0 +1,3 @@
+/home/nephthalisalam/CLionProjects/IDS/cmake-build-debug/CMakeFiles/IDS.dir
+/home/nephthalisalam/CLionProjects/IDS/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/nephthalisalam/CLionProjects/IDS/cmake-build-debug/CMakeFiles/rebuild_cache.dir

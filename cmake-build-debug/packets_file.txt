@@ -1,0 +1,340 @@
+Timestamp: Wed Oct  2 20:43:18 2024
+Source IP: 140.82.113.22 -> Destination IP: 192.168.0.134
+Protocol: TCP
+Source Port: 443 -> Destination Port: 48154
+Source IP: 140.82.113.22 SYN count: 0
+Destination IP: 192.168.0.134 SYN-ACK count: 0
+Packet Length: 105 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:18 2024
+Source IP: 140.82.113.22 -> Destination IP: 192.168.0.134
+Protocol: TCP
+Source Port: 443 -> Destination Port: 48154
+Source IP: 140.82.113.22 SYN count: 0
+Destination IP: 192.168.0.134 SYN-ACK count: 0
+Packet Length: 90 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:18 2024
+Source IP: 140.82.113.22 -> Destination IP: 192.168.0.134
+Protocol: TCP
+Source Port: 443 -> Destination Port: 48154
+Source IP: 140.82.113.22 SYN count: 0
+Destination IP: 192.168.0.134 SYN-ACK count: 0
+Packet Length: 66 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:18 2024
+Source IP: 192.168.0.134 -> Destination IP: 140.82.113.22
+Protocol: TCP
+Source Port: 48154 -> Destination Port: 443
+Source IP: 192.168.0.134 SYN count: 0
+Destination IP: 140.82.113.22 SYN-ACK count: 0
+Packet Length: 66 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:18 2024
+Source IP: 192.168.0.134 -> Destination IP: 140.82.113.22
+Protocol: TCP
+Source Port: 48154 -> Destination Port: 443
+Source IP: 192.168.0.134 SYN count: 0
+Destination IP: 140.82.113.22 SYN-ACK count: 0
+Packet Length: 122 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:18 2024
+Source IP: 192.168.0.134 -> Destination IP: 140.82.113.22
+Protocol: TCP
+Source Port: 48154 -> Destination Port: 443
+Source IP: 192.168.0.134 SYN count: 0
+Destination IP: 140.82.113.22 SYN-ACK count: 0
+Packet Length: 66 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:18 2024
+Source IP: 140.82.113.22 -> Destination IP: 192.168.0.134
+Protocol: TCP
+Source Port: 443 -> Destination Port: 48154
+Source IP: 140.82.113.22 SYN count: 0
+Destination IP: 192.168.0.134 SYN-ACK count: 0
+Packet Length: 54 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:18 2024
+Source IP: 140.82.113.22 -> Destination IP: 192.168.0.134
+Protocol: TCP
+Source Port: 443 -> Destination Port: 48154
+Source IP: 140.82.113.22 SYN count: 0
+Destination IP: 192.168.0.134 SYN-ACK count: 0
+Packet Length: 54 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:18 2024
+Source IP: 192.168.0.134 -> Destination IP: 52.111.231.0
+Protocol: TCP
+Source Port: 40550 -> Destination Port: 443
+Source IP: 192.168.0.134 SYN count: 0
+Destination IP: 52.111.231.0 SYN-ACK count: 0
+Packet Length: 54 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:19 2024
+Source IP: 52.111.231.0 -> Destination IP: 192.168.0.134
+Protocol: TCP
+Source Port: 443 -> Destination Port: 40550
+Source IP: 52.111.231.0 SYN count: 0
+Destination IP: 192.168.0.134 SYN-ACK count: 0
+Packet Length: 54 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:20 2024
+Source IP: 192.168.0.103 -> Destination IP: 224.0.0.251
+Protocol: UDP
+Source Port: 5353 -> Destination Port: 5353
+Packet Length: 119 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:20 2024
+Source IP: 192.168.0.134 -> Destination IP: 172.64.148.154
+Protocol: TCP
+Source Port: 60778 -> Destination Port: 443
+Source IP: 192.168.0.134 SYN count: 0
+Destination IP: 172.64.148.154 SYN-ACK count: 0
+Packet Length: 66 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:20 2024
+Source IP: 172.64.148.154 -> Destination IP: 192.168.0.134
+Protocol: TCP
+Source Port: 443 -> Destination Port: 60778
+Source IP: 172.64.148.154 SYN count: 0
+Destination IP: 192.168.0.134 SYN-ACK count: 0
+Packet Length: 66 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:22 2024
+Source IP: 172.64.148.154 -> Destination IP: 192.168.0.134
+Protocol: TCP
+Source Port: 443 -> Destination Port: 57392
+Source IP: 172.64.148.154 SYN count: 0
+Destination IP: 192.168.0.134 SYN-ACK count: 0
+Packet Length: 91 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:22 2024
+Source IP: 192.168.0.134 -> Destination IP: 172.64.148.154
+Protocol: TCP
+Source Port: 57392 -> Destination Port: 443
+Source IP: 192.168.0.134 SYN count: 0
+Destination IP: 172.64.148.154 SYN-ACK count: 0
+Packet Length: 95 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:22 2024
+Source IP: 172.64.148.154 -> Destination IP: 192.168.0.134
+Protocol: TCP
+Source Port: 443 -> Destination Port: 57392
+Source IP: 172.64.148.154 SYN count: 0
+Destination IP: 192.168.0.134 SYN-ACK count: 0
+Packet Length: 66 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:24 2024
+Source IP: 192.168.0.103 -> Destination IP: 192.168.0.255
+Protocol: UDP
+Source Port: 57621 -> Destination Port: 57621
+Packet Length: 82 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:24 2024
+Source IP: 192.168.0.134 -> Destination IP: 52.98.20.146
+Protocol: UDP
+Source Port: 37113 -> Destination Port: 443
+Packet Length: 1292 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:24 2024
+Source IP: 192.168.0.134 -> Destination IP: 52.98.20.146
+Protocol: UDP
+Source Port: 37113 -> Destination Port: 443
+Packet Length: 1292 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:24 2024
+Source IP: 192.168.0.134 -> Destination IP: 52.98.20.146
+Protocol: UDP
+Source Port: 37113 -> Destination Port: 443
+Packet Length: 446 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:24 2024
+Source IP: 52.98.20.146 -> Destination IP: 192.168.0.134
+Protocol: UDP
+Source Port: 443 -> Destination Port: 37113
+Packet Length: 76 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:24 2024
+Source IP: 52.98.20.146 -> Destination IP: 192.168.0.134
+Protocol: UDP
+Source Port: 443 -> Destination Port: 37113
+Packet Length: 74 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:24 2024
+Source IP: 52.98.20.146 -> Destination IP: 192.168.0.134
+Protocol: UDP
+Source Port: 443 -> Destination Port: 37113
+Packet Length: 71 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:24 2024
+Source IP: 192.168.0.134 -> Destination IP: 52.98.20.146
+Protocol: UDP
+Source Port: 37113 -> Destination Port: 443
+Packet Length: 81 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:25 2024
+Source IP: 192.168.0.134 -> Destination IP: 192.168.0.1
+Protocol: UDP
+Source Port: 37373 -> Destination Port: 53
+Packet Length: 73 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:25 2024
+Source IP: 52.98.20.146 -> Destination IP: 192.168.0.134
+Protocol: UDP
+Source Port: 443 -> Destination Port: 37113
+Packet Length: 216 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:25 2024
+Source IP: 52.98.20.146 -> Destination IP: 192.168.0.134
+Protocol: UDP
+Source Port: 443 -> Destination Port: 37113
+Packet Length: 1181 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:25 2024
+Source IP: 52.98.20.146 -> Destination IP: 192.168.0.134
+Protocol: UDP
+Source Port: 443 -> Destination Port: 37113
+Packet Length: 70 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:25 2024
+Source IP: 52.98.20.146 -> Destination IP: 192.168.0.134
+Protocol: UDP
+Source Port: 443 -> Destination Port: 37113
+Packet Length: 1327 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:25 2024
+Source IP: 192.168.0.1 -> Destination IP: 192.168.0.134
+Protocol: UDP
+Source Port: 53 -> Destination Port: 37373
+Packet Length: 105 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:25 2024
+Source IP: 192.168.0.134 -> Destination IP: 104.18.39.102
+Protocol: UDP
+Source Port: 54005 -> Destination Port: 443
+Packet Length: 1292 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:25 2024
+Source IP: 192.168.0.134 -> Destination IP: 104.18.39.102
+Protocol: UDP
+Source Port: 54005 -> Destination Port: 443
+Packet Length: 1292 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:25 2024
+Source IP: 192.168.0.134 -> Destination IP: 172.64.148.154
+Protocol: TCP
+Source Port: 35468 -> Destination Port: 443
+Source IP: 192.168.0.134 SYN count: 0
+Destination IP: 172.64.148.154 SYN-ACK count: 0
+Packet Length: 157 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:25 2024
+Source IP: 192.168.0.134 -> Destination IP: 172.64.148.154
+Protocol: TCP
+Source Port: 35468 -> Destination Port: 443
+Source IP: 192.168.0.134 SYN count: 0
+Destination IP: 172.64.148.154 SYN-ACK count: 0
+Packet Length: 179 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:25 2024
+Source IP: 192.168.0.134 -> Destination IP: 52.98.20.146
+Protocol: UDP
+Source Port: 37113 -> Destination Port: 443
+Packet Length: 86 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:25 2024
+Source IP: 172.64.148.154 -> Destination IP: 192.168.0.134
+Protocol: TCP
+Source Port: 443 -> Destination Port: 35468
+Source IP: 172.64.148.154 SYN count: 0
+Destination IP: 192.168.0.134 SYN-ACK count: 0
+Packet Length: 66 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:25 2024
+Source IP: 172.64.148.154 -> Destination IP: 192.168.0.134
+Protocol: TCP
+Source Port: 443 -> Destination Port: 35468
+Source IP: 172.64.148.154 SYN count: 0
+Destination IP: 192.168.0.134 SYN-ACK count: 0
+Packet Length: 66 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:25 2024
+Source IP: 172.64.148.154 -> Destination IP: 192.168.0.134
+Protocol: TCP
+Source Port: 443 -> Destination Port: 35468
+Source IP: 172.64.148.154 SYN count: 0
+Destination IP: 192.168.0.134 SYN-ACK count: 0
+Packet Length: 105 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:25 2024
+Source IP: 104.18.39.102 -> Destination IP: 192.168.0.134
+Protocol: UDP
+Source Port: 443 -> Destination Port: 54005
+Packet Length: 1242 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:25 2024
+Source IP: 104.18.39.102 -> Destination IP: 192.168.0.134
+Protocol: UDP
+Source Port: 443 -> Destination Port: 54005
+Packet Length: 1242 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:25 2024
+Source IP: 104.18.39.102 -> Destination IP: 192.168.0.134
+Protocol: UDP
+Source Port: 443 -> Destination Port: 54005
+Packet Length: 1242 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:25 2024
+Source IP: 192.168.0.134 -> Destination IP: 104.18.39.102
+Protocol: UDP
+Source Port: 54005 -> Destination Port: 443
+Packet Length: 1292 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:25 2024
+Source IP: 192.168.0.134 -> Destination IP: 104.18.39.102
+Protocol: UDP
+Source Port: 54005 -> Destination Port: 443
+Packet Length: 1292 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:25 2024
+Source IP: 192.168.0.134 -> Destination IP: 104.18.39.102
+Protocol: UDP
+Source Port: 54005 -> Destination Port: 443
+Packet Length: 207 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:25 2024
+Source IP: 104.18.39.102 -> Destination IP: 192.168.0.134
+Protocol: UDP
+Source Port: 443 -> Destination Port: 54005
+Packet Length: 527 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:25 2024
+Source IP: 104.18.39.102 -> Destination IP: 192.168.0.134
+Protocol: UDP
+Source Port: 443 -> Destination Port: 54005
+Packet Length: 66 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:25 2024
+Source IP: 104.18.39.102 -> Destination IP: 192.168.0.134
+Protocol: UDP
+Source Port: 443 -> Destination Port: 54005
+Packet Length: 66 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:25 2024
+Source IP: 104.18.39.102 -> Destination IP: 192.168.0.134
+Protocol: UDP
+Source Port: 443 -> Destination Port: 54005
+Packet Length: 91 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:25 2024
+Source IP: 192.168.0.134 -> Destination IP: 104.18.39.102
+Protocol: UDP
+Source Port: 54005 -> Destination Port: 443
+Packet Length: 85 bytes
+-------------------------------
+Timestamp: Wed Oct  2 20:43:25 2024
+Source IP: 192.168.0.134 -> Destination IP: 104.18.39.102
+Protocol: UDP
+Source Port: 54005 -> Destination Port: 443
+Packet Length: 89 bytes
+-------------------------------

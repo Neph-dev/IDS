@@ -1,0 +1,8 @@
+Timestamp: Wed Oct  2 20:33:41 2024
+Source IP: 140.82.114.21 -> Destination IP: 192.168.0.134
+Protocol: TCP
+Source Port: 443 -> Destination Port: 49734
+Source IP: 140.82.114.21 SYN count: 0
+Destination IP: 192.168.0.134 SYN-ACK count: 0
+Packet Length: 114 bytes
+-------------------------------
